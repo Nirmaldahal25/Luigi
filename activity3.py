@@ -42,3 +42,5 @@ class Merge(luigi.Task):
             
     def output(self):
         return luigi.LocalTarget("output/merge.csv")
+
+# luigi --module activity3 Merge --local-scheduler

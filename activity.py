@@ -70,4 +70,4 @@ if __name__ == "__main__":
     
 #command
 #luigi --module activity MyTask --date 2014-02-02
-#luifi --module activity Mytask2 --date 2014-02-02
+#luigi --module activity Mytask2 --date 2014-02-02
